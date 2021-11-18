@@ -1,0 +1,101 @@
+/* * {
+  margin: 0;
+} */
+.div-nav {
+  display: flex;
+  background-color: lightslategray;
+  height: 70px;
+  width: 100%;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+  border: 1pxsolid lightslategray;
+  border-radius: 7px;
+}
+.goals-nav,
+.section-nav,
+.rules-nav,
+.home-nav {
+  text-decoration: none;
+  color: lavender;
+  background-color: seagreen;
+  width: 50px;
+  height: 20px;
+  border: 1px black solid;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+a:visited {
+  color: orangered;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.des{
+    border: 3px gray outset;
+    border-radius:8px;
+    padding: 9px;
+    margin: 10px;
+}
+.des-p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 510; 
+}
+.items{
+    width: 170px;
+    height: 290px;
+    border: 3px solid rgba(240, 61, 61, 0.404);
+    margin: 8px;
+    padding: 9px;
+}
+img{
+  width:80px;
+  height: 80px;
+  padding: 30px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h3{
+ padding: 30px;
+}
+.span-goal{ 
+  color: red;
+}
+.rules-items{
+  width: 140px;
+    height: 290px;
+    border: 3px dashed rgba(119, 230, 55, 0.678);
+    margin: 8px;
+    padding: 9px;
+}
+
+table.table {
+  width: 500px;
+  background-color: #ffffff;
+border-collapse: separate;
+  border-width: 2px;
+  border-color: #00ffdd;
+  border-style: solid;
+  color: #000000;
+}
+
+table.table td, table.table th {
+  border-width: 2px;
+  border-color: #00ffdd;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.table thead {
+  background-color: #00ffdd;
+}
+table{
+ margin: 40px 10px 10px 400px;
+ 
+}
+
+
